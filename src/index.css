@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .login__input {
+    @apply py-2 px-5 outline-none placeholder:text-gray-400 border-b border-gray-400;
+  }
+}
